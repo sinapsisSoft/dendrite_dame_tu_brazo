@@ -1,0 +1,123 @@
+CRITICAL - 2022-09-14 10:30:24 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 10:30:41 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 10:30:44 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 10:34:21 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 10:34:36 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 11:09:19 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 11:09:25 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 11:09:26 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-14 11:10:22 --> Undefined variable: module_info
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: module_info', 'APPPATH\\Views\\student\\module\\module.php', 29, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(113): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 19:25:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+CRITICAL - 2022-09-14 19:25:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_content(,)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_content(,)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_content(,)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_content(,)')
+ 5 APPPATH\Controllers\Content_infos.php(83): App\Models\Content_info->select_content_module_main(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-14 19:25:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+CRITICAL - 2022-09-14 19:25:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_content(,)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_content(,)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_content(,)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_content(,)')
+ 5 APPPATH\Controllers\Content_infos.php(83): App\Models\Content_info->select_content_module_main(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

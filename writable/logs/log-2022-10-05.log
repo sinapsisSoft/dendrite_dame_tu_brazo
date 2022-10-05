@@ -1,0 +1,168 @@
+ERROR - 2022-10-05 16:41:27 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:41:27 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'1030546339\',\'487d34fe8644321e68f9be0889e93ff3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'1030546339\',\'487d34fe8644321e68f9be0889e93ff3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'1030546339\',\'487d34fe8644321e68f9be0889e93ff3\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'1030546339\',\'487d34fe8644321e68f9be0889e93ff3\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('1030546339', '487d34fe8644321e68f9be0889e93ff3')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:43:21 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:43:21 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'\',\'487d34fe8644321e68f9be0889e93ff3\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'\',\'487d34fe8644321e68f9be0889e93ff3\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'\',\'487d34fe8644321e68f9be0889e93ff3\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'\',\'487d34fe8644321e68f9be0889e93ff3\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('ROOTPATH\\public', '487d34fe8644321e68f9be0889e93ff3')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:43:25 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:43:25 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('ROOTPATH\\public', 'd41d8cd98f00b204e9800998ecf8427e')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:43:28 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:43:28 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'\',\'d41d8cd98f00b204e9800998ecf8427e\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('ROOTPATH\\public', 'd41d8cd98f00b204e9800998ecf8427e')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:44:48 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:44:48 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'80859867\',\'6868509a86638db8b0e0b54bd5e85e49\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'80859867\',\'6868509a86638db8b0e0b54bd5e85e49\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'80859867\',\'6868509a86638db8b0e0b54bd5e85e49\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'80859867\',\'6868509a86638db8b0e0b54bd5e85e49\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('80859867', '6868509a86638db8b0e0b54bd5e85e49')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:45:37 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:45:37 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('52504784', '1dbd98df82390bcae7c1656e5d4eb0f4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:47:39 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:47:39 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('52504784', '1dbd98df82390bcae7c1656e5d4eb0f4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:47:51 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:47:51 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('39624211', '513d100c9ae5d6912dc3cf20ea62adce')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:47:55 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:47:55 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'39624211\',\'513d100c9ae5d6912dc3cf20ea62adce\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('39624211', '513d100c9ae5d6912dc3cf20ea62adce')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:48:25 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:48:25 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('52504784', '1dbd98df82390bcae7c1656e5d4eb0f4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:48:40 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:48:40 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'1075651474\',\'edf0501068a278431103765e27ca65c7\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'1075651474\',\'edf0501068a278431103765e27ca65c7\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'1075651474\',\'edf0501068a278431103765e27ca65c7\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'1075651474\',\'edf0501068a278431103765e27ca65c7\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('1075651474', 'edf0501068a278431103765e27ca65c7')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:49:09 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:49:09 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('52504784', '1dbd98df82390bcae7c1656e5d4eb0f4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:50:16 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:50:16 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('52504784', '1dbd98df82390bcae7c1656e5d4eb0f4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-05 16:53:26 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+CRITICAL - 2022-10-05 16:53:26 --> The user specified as a definer ('u986006711_developer'@'127.0.0.1') does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 4 APPPATH\Models\Login.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_login(\'52504784\',\'1dbd98df82390bcae7c1656e5d4eb0f4\')')
+ 5 APPPATH\Controllers\Authentication\Authentications.php(34): App\Models\Login->sp_login('52504784', '1dbd98df82390bcae7c1656e5d4eb0f4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Authentication\Authentications->login()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Authentication\Authentications))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

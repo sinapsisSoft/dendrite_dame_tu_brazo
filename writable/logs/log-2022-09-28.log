@@ -1,0 +1,154 @@
+CRITICAL - 2022-09-28 15:16:56 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(53): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-28 15:17:05 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+CRITICAL - 2022-09-28 15:17:05 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_activity_user()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_activity_user()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_activity_user()')
+ 4 APPPATH\Models\Activity_user.php(17): CodeIgniter\Database\BaseConnection->query('CALL sp_activity_user()')
+ 5 APPPATH\Controllers\Content_infos.php(29): App\Models\Activity_user->getActivity(null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-28 15:17:09 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+CRITICAL - 2022-09-28 15:17:09 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_activity_user()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_activity_user()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_activity_user()')
+ 4 APPPATH\Models\Activity_user.php(17): CodeIgniter\Database\BaseConnection->query('CALL sp_activity_user()')
+ 5 APPPATH\Controllers\Content_infos.php(29): App\Models\Activity_user->getActivity(null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 15:26:15 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(53): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+<<<<<<< Updated upstream
+CRITICAL - 2022-09-28 20:25:18 --> Undefined array key "conten_info"
+in APPPATH\Controllers\Content_infos.php on line 105.
+ 1 APPPATH\Controllers\Content_infos.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conten_info"', 'APPPATH\\Controllers\\Content_infos.php', 105)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-28 20:26:05 --> Column 'content_id' in where clause is ambiguous
+CRITICAL - 2022-09-28 20:26:05 --> Column 'content_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(22): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(107): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-28 20:27:20 --> Column 'content_id' in where clause is ambiguous
+CRITICAL - 2022-09-28 20:27:20 --> Column 'content_id' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(107): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-28 20:52:59 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+CRITICAL - 2022-09-28 20:52:59 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+=======
+ERROR - 2022-09-28 19:50:47 --> PROCEDURE dendrite_brazo.sp_activity_user does not exist
+CRITICAL - 2022-09-28 19:50:47 --> PROCEDURE dendrite_brazo.sp_activity_user does not exist
+>>>>>>> Stashed changes
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_activity_user()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_activity_user()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_activity_user()')
+ 4 APPPATH\Models\Activity_user.php(16): CodeIgniter\Database\BaseConnection->query('CALL sp_activity_user()')
+ 5 APPPATH\Controllers\Content_infos.php(29): App\Models\Activity_user->getActivity(null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+<<<<<<< Updated upstream
+ERROR - 2022-09-28 20:54:58 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+CRITICAL - 2022-09-28 20:54:58 --> Incorrect number of arguments for PROCEDURE dendrite_brazo.sp_activity_user; expected 1, got 0
+=======
+ERROR - 2022-09-28 19:50:52 --> PROCEDURE dendrite_brazo.sp_activity_user does not exist
+CRITICAL - 2022-09-28 19:50:52 --> PROCEDURE dendrite_brazo.sp_activity_user does not exist
+>>>>>>> Stashed changes
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_activity_user()', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_activity_user()')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_activity_user()')
+ 4 APPPATH\Models\Activity_user.php(16): CodeIgniter\Database\BaseConnection->query('CALL sp_activity_user()')
+ 5 APPPATH\Controllers\Content_infos.php(29): App\Models\Activity_user->getActivity(null)
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+<<<<<<< Updated upstream
+ERROR - 2022-09-28 21:10:37 --> Cannot add or update a child row: a foreign key constraint fails (`dendrite_brazo`.`activity_user`, CONSTRAINT `activity_user_ibfk_2` FOREIGN KEY (`content_id`) REFERENCES `content` (`content_id`))
+CRITICAL - 2022-09-28 21:10:37 --> Cannot add or update a child row: a foreign key constraint fails (`dendrite_brazo`.`activity_user`, CONSTRAINT `activity_user_ibfk_2` FOREIGN KEY (`content_id`) REFERENCES `content` (`content_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(22): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 21:11:27 --> Undefined variable $result
+in APPPATH\Models\Activity_user.php on line 24.
+ 1 APPPATH\Models\Activity_user.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Models\\Activity_user.php', 24)
+ 2 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-28 21:13:34 --> Undefined variable $result
+in APPPATH\Models\Activity_user.php on line 24.
+ 1 APPPATH\Models\Activity_user.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Models\\Activity_user.php', 24)
+ 2 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-28 21:22:13 --> Cannot add or update a child row: a foreign key constraint fails (`dendrite_brazo`.`activity_user`, CONSTRAINT `activity_user_ibfk_2` FOREIGN KEY (`content_id`) REFERENCES `content` (`content_id`))
+CRITICAL - 2022-09-28 21:22:13 --> Cannot add or update a child row: a foreign key constraint fails (`dendrite_brazo`.`activity_user`, CONSTRAINT `activity_user_ibfk_2` FOREIGN KEY (`content_id`) REFERENCES `content` (`content_id`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+=======
+>>>>>>> Stashed changes

@@ -1,0 +1,272 @@
+ERROR - 2022-09-29 09:10:14 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 09:10:14 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 09:10:16 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 09:10:16 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 09:17:40 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 09:17:40 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 09:17:42 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 09:17:42 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 09:18:00 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 09:18:00 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 11:38:50 --> Undefined array key "conten_info"
+in APPPATH\Controllers\Content_infos.php on line 159.
+ 1 APPPATH\Controllers\Content_infos.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "conten_info"', 'APPPATH\\Controllers\\Content_infos.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:38:39 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(62): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:39:02 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(62): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:39:17 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(62): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:40:11 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(62): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:50:03 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(62): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 12:50:53 --> Undefined array key 0
+in APPPATH\Views\student\module\module.php on line 29.
+ 1 APPPATH\Views\student\module\module.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Views\\student\\module\\module.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(62): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showModule()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:02:18 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:02:18 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,14,3)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,14,3)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,14,3)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,14,3)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '14', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:02:20 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:02:20 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,14,3)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,14,3)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,14,3)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,14,3)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '14', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:02:31 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:02:31 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,14,3)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,14,3)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,14,3)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,14,3)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '14', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:14:43 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:14:43 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,14,3)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,14,3)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,14,3)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,14,3)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '14', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:17:50 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:17:50 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,14,3)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,14,3)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,14,3)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,14,3)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '14', '3')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:18:01 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:18:01 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,15,4)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,15,4)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,15,4)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,15,4)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '15', '4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:18:03 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:18:03 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,15,4)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,15,4)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,15,4)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,15,4)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '15', '4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:19:15 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:19:15 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,15,4)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,15,4)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,15,4)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,15,4)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '15', '4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:19:22 --> Subquery returns more than 1 row
+CRITICAL - 2022-09-29 13:19:22 --> Subquery returns more than 1 row
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,15,4)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,15,4)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,15,4)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,15,4)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '15', '4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-29 13:33:06 --> Undefined array key 0
+in APPPATH\Controllers\Content_infos.php on line 159.
+ 1 APPPATH\Controllers\Content_infos.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Content_infos.php', 159)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:56:00 --> Unknown column 'nextContent' in 'where clause'
+CRITICAL - 2022-09-29 13:56:00 --> Unknown column 'nextContent' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-29 13:56:22 --> Unknown column 'nextContent' in 'where clause'
+CRITICAL - 2022-09-29 13:56:22 --> Unknown column 'nextContent' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_create_activity_user(2,2,2)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_create_activity_user(2,2,2)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_create_activity_user(2,2,2)')
+ 4 APPPATH\Models\Activity_user.php(23): CodeIgniter\Database\BaseConnection->query('CALL sp_create_activity_user(2,2,2)')
+ 5 APPPATH\Controllers\Content_infos.php(113): App\Models\Activity_user->setActivity('2', '2', '2')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

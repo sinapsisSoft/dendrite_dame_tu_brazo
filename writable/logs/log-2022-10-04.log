@@ -1,0 +1,213 @@
+CRITICAL - 2022-10-04 01:10:37 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 01:10:42 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 03:45:01 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showContent()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 03:45:16 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showContent()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 03:45:24 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showContent()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 03:53:01 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showContent()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 05:35:14 --> Undefined array key 0
+in APPPATH/Controllers/Content/Content_infos.php on line 124.
+ 1 APPPATH/Controllers/Content/Content_infos.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showContent()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 06:50:18 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 07:26:24 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 09:20:35 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 09:20:38 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(151): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showContent()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 09:20:39 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:21:17 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '<'
+CRITICAL - 2022-10-04 09:21:17 --> Call to a member function getResult() on bool
+in APPPATH/Models/User_score.php on line 17.
+ 1 APPPATH/Controllers/Content/Content_infos.php(203): App\Models\User_score->insert_score_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->createQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:21:21 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '<'
+CRITICAL - 2022-10-04 09:21:21 --> Call to a member function getResult() on bool
+in APPPATH/Models/User_score.php on line 17.
+ 1 APPPATH/Controllers/Content/Content_infos.php(203): App\Models\User_score->insert_score_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->createQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:21:35 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '<'
+CRITICAL - 2022-10-04 09:21:35 --> Call to a member function getResult() on bool
+in APPPATH/Models/User_score.php on line 17.
+ 1 APPPATH/Controllers/Content/Content_infos.php(203): App\Models\User_score->insert_score_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->createQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 09:22:31 --> Undefined array key 0
+in APPPATH/Controllers/Content/Content_infos.php on line 167.
+ 1 APPPATH/Controllers/Content/Content_infos.php(167): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:29:52 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8mb4_unicode_ci,IMPLICIT) for operation '<'
+CRITICAL - 2022-10-04 09:29:52 --> Call to a member function getResult() on bool
+in APPPATH/Models/User_score.php on line 17.
+ 1 APPPATH/Controllers/Content/Content_infos.php(203): App\Models\User_score->insert_score_quiz()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->createQuiz()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:38:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+CRITICAL - 2022-10-04 09:38:29 --> Call to a member function getResult() on bool
+in APPPATH/Models/Content_info.php on line 15.
+ 1 APPPATH/Controllers/Content/Content_infos.php(66): App\Models\Content_info->select_content_module_main()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:38:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+CRITICAL - 2022-10-04 09:38:32 --> Call to a member function getResult() on bool
+in APPPATH/Models/Content_info.php on line 15.
+ 1 APPPATH/Controllers/Content/Content_infos.php(66): App\Models\Content_info->select_content_module_main()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:39:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+CRITICAL - 2022-10-04 09:39:01 --> Call to a member function getResult() on bool
+in APPPATH/Models/Content_info.php on line 15.
+ 1 APPPATH/Controllers/Content/Content_infos.php(66): App\Models\Content_info->select_content_module_main()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-04 09:39:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1)' at line 1
+CRITICAL - 2022-10-04 09:39:42 --> Call to a member function getResult() on bool
+in APPPATH/Models/Content_info.php on line 15.
+ 1 APPPATH/Controllers/Content/Content_infos.php(66): App\Models\Content_info->select_content_module_main()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 11:43:32 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 11:43:32 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 11:43:32 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-04 12:01:35 --> Invalid file: login/view.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Content/Content_infos.php(75): view()
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Content\Content_infos->showModule()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

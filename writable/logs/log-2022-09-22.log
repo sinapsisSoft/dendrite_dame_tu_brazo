@@ -1,0 +1,35 @@
+CRITICAL - 2022-09-22 09:11:17 --> Undefined offset: 0
+in APPPATH\Views\student\module\webinar.php on line 50.
+ 1 APPPATH\Views\student\module\webinar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Views\\student\\module\\webinar.php', 50, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\webinar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/webinar', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(115): view('student/module/webinar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showContent()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 09:11:23 --> PROCEDURE dendrite_brazo.sp_content_info_quiz does not exist
+CRITICAL - 2022-09-22 09:11:23 --> PROCEDURE dendrite_brazo.sp_content_info_quiz does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_quiz(1,6)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_quiz(1,6)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_quiz(1,6)')
+ 4 APPPATH\Models\Content_info.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_quiz(1,6)')
+ 5 APPPATH\Controllers\Content_infos.php(139): App\Models\Content_info->select_content_info_quiz('1', '6')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-22 09:11:30 --> PROCEDURE dendrite_brazo.sp_content_info_quiz does not exist
+CRITICAL - 2022-09-22 09:11:30 --> PROCEDURE dendrite_brazo.sp_content_info_quiz does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_quiz(1,5)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_quiz(1,5)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_quiz(1,5)')
+ 4 APPPATH\Models\Content_info.php(21): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_quiz(1,5)')
+ 5 APPPATH\Controllers\Content_infos.php(139): App\Models\Content_info->select_content_info_quiz('1', '5')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,130 @@
+CRITICAL - 2022-09-30 10:07:26 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Content_infos.php on line 173.
+ 1 APPPATH\Controllers\Content_infos.php(173): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 10:08:04 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Content_infos.php on line 173.
+ 1 APPPATH\Controllers\Content_infos.php(173): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 10:09:23 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Content_infos.php on line 173.
+ 1 APPPATH\Controllers\Content_infos.php(173): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 10:09:28 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Controllers\Content_infos.php on line 173.
+ 1 APPPATH\Controllers\Content_infos.php(173): count(null)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 10:11:41 --> Undefined variable $disabled
+in APPPATH\Views\student\module\assessment.php on line 77.
+ 1 APPPATH\Views\student\module\assessment.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $disabled', 'APPPATH\\Views\\student\\module\\assessment.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\assessment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/assessment', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(176): view('student/module/assessment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 10:16:13 --> Undefined variable $data
+in APPPATH\Controllers\Content_infos.php on line 206.
+ 1 APPPATH\Controllers\Content_infos.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'APPPATH\\Controllers\\Content_infos.php', 206)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createAssessment()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 12:46:32 --> Call to undefined method CodeIgniter\Session\Session::session_destroy()
+in APPPATH\Controllers\Logins.php on line 46.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Logins->destroySession()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Logins))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:27:50 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:28:09 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:29:04 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:30:42 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:30:56 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:31:00 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:31:11 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 13:31:13 --> Undefined property: App\Controllers\Home::$session
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Home::$session', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->habeas()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 20:50:36 --> Undefined array key 26
+in APPPATH\Views\student\module\assessment.php on line 125.
+ 1 APPPATH\Views\student\module\assessment.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 26', 'APPPATH\\Views\\student\\module\\assessment.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\assessment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/assessment', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(168): view('student/module/assessment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-30 20:51:30 --> Undefined array key 26
+in APPPATH\Views\student\module\assessment.php on line 125.
+ 1 APPPATH\Views\student\module\assessment.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 26', 'APPPATH\\Views\\student\\module\\assessment.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\assessment.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/assessment', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(168): view('student/module/assessment', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

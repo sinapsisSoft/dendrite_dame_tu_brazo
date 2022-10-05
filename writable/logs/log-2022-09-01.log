@@ -1,0 +1,53 @@
+CRITICAL - 2022-09-01 09:54:51 --> Object of class CodeIgniter\HTTP\IncomingRequest could not be converted to string
+in APPPATH\Controllers\Activity_users.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Activity_users->habeas()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity_users))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 18:11:16 --> Invalid file: home/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 19:57:16 --> Invalid file: home/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(15): view('home/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 20:01:03 --> Invalid file: student/home/habeas.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/home/habeas.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/home/habeas', [], true)
+ 3 APPPATH\Controllers\Activity_users.php(20): view('student/home/habeas', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Activity_users->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Activity_users))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 20:03:34 --> Invalid file: student/module/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('student/module/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/index', [], true)
+ 3 APPPATH\Controllers\Content_infos.php(39): view('student/module/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->home()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-01 20:07:08 --> Undefined variable $footer
+in APPPATH\Views\student\home\dashboard.php on line 58.
+ 1 APPPATH\Views\student\home\dashboard.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'APPPATH\\Views\\student\\home\\dashboard.php', 58)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\home\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/home/dashboard', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(29): view('student/home/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

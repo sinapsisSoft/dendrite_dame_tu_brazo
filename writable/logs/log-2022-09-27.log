@@ -1,0 +1,22 @@
+CRITICAL - 2022-09-27 10:57:47 --> Undefined variable: footer
+in APPPATH\Views\home\building.php on line 58.
+ 1 APPPATH\Views\home\building.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: footer', 'APPPATH\\Views\\home\\building.php', 58, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\building.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/building', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(183): view('home/building', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->building()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-27 16:53:05 --> Undefined variable: header
+in APPPATH\Views\home\preload.php on line 27.
+ 1 APPPATH\Views\home\preload.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: header', 'APPPATH\\Views\\home\\preload.php', 27, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\preload.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/preload', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(182): view('home/preload', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->preload()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

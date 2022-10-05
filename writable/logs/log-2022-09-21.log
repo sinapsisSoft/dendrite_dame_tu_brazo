@@ -1,0 +1,84 @@
+CRITICAL - 2022-09-21 20:00:49 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:04:10 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:04:15 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:04:22 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:04:52 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:04:59 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:05:15 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:05:27 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:05:32 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:06:16 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:06:20 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-21 20:08:17 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Content_infos.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->showQuiz()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-21 20:39:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2,'4')' at line 1
+CRITICAL - 2022-09-21 20:39:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '2,'4')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_user_score(,2,\'4\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_user_score(,2,\'4\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_user_score(,2,\'4\')')
+ 4 APPPATH\Models\User_score.php(17): CodeIgniter\Database\BaseConnection->query('CALL sp_user_score(,2,\'4\')')
+ 5 APPPATH\Controllers\Content_infos.php(164): App\Models\User_score->insert_score_quiz(null, '2', '4')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

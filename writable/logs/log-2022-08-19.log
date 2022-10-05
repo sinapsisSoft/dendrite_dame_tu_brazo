@@ -1,0 +1,52 @@
+CRITICAL - 2022-08-19 11:39:16 --> Undefined constant "WEB_BUSSINES"
+in APPPATH\Views\template\footer.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('template/footer', [], true)
+ 4 APPPATH\Controllers\Home.php(15): view('template/footer')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-19 11:53:30 --> Invalid file: home/dashboard.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/dashboard', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('home/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-19 11:59:08 --> Undefined variable $footer
+in APPPATH\Views\home\dashboard.php on line 97.
+ 1 APPPATH\Views\home\dashboard.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'APPPATH\\Views\\home\\dashboard.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('home/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-19 11:59:32 --> Undefined variable $footer
+in APPPATH\Views\home\dashboard.php on line 97.
+ 1 APPPATH\Views\home\dashboard.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'APPPATH\\Views\\home\\dashboard.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('home/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-19 12:00:07 --> Undefined variable $footer
+in APPPATH\Views\home\dashboard.php on line 97.
+ 1 APPPATH\Views\home\dashboard.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $footer', 'APPPATH\\Views\\home\\dashboard.php', 97)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('home/dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(17): view('home/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,128 @@
+ERROR - 2022-09-02 13:35:10 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+CRITICAL - 2022-09-02 13:35:10 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_webinar(1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_webinar(1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_webinar(1)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_webinar(1)')
+ 5 APPPATH\Controllers\Content_infos.php(23): App\Models\Content_info->select_content_webinar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 13:36:14 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+CRITICAL - 2022-09-02 13:36:14 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_webinar(1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_webinar(1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_webinar(1)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_webinar(1)')
+ 5 APPPATH\Controllers\Content_infos.php(23): App\Models\Content_info->select_content_webinar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 13:40:29 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+CRITICAL - 2022-09-02 13:40:29 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_webinar(1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_webinar(1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_webinar(1)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_webinar(1)')
+ 5 APPPATH\Controllers\Content_infos.php(23): App\Models\Content_info->select_content_webinar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 13:40:31 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+CRITICAL - 2022-09-02 13:40:31 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_webinar(1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_webinar(1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_webinar(1)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_webinar(1)')
+ 5 APPPATH\Controllers\Content_infos.php(23): App\Models\Content_info->select_content_webinar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 13:42:02 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+CRITICAL - 2022-09-02 13:42:02 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_webinar(1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_webinar(1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_webinar(1)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_webinar(1)')
+ 5 APPPATH\Controllers\Content_infos.php(23): App\Models\Content_info->select_content_webinar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 13:42:04 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+CRITICAL - 2022-09-02 13:42:04 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_webinar(1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_webinar(1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_webinar(1)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_webinar(1)')
+ 5 APPPATH\Controllers\Content_infos.php(23): App\Models\Content_info->select_content_webinar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-02 13:42:06 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+CRITICAL - 2022-09-02 13:42:06 --> PROCEDURE dendrite_brazo.sp_content_info_webinar does not exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_content_info_webinar(1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_content_info_webinar(1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_content_info_webinar(1)')
+ 4 APPPATH\Models\Content_info.php(15): CodeIgniter\Database\BaseConnection->query('CALL sp_content_info_webinar(1)')
+ 5 APPPATH\Controllers\Content_infos.php(23): App\Models\Content_info->select_content_webinar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 13:54:09 --> Undefined variable: footer
+in APPPATH\Views\student\module\module.php on line 70.
+ 1 APPPATH\Views\student\module\module.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: footer', 'APPPATH\\Views\\student\\module\\module.php', 70, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(29): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 13:55:32 --> Undefined variable: footer
+in APPPATH\Views\student\module\module.php on line 70.
+ 1 APPPATH\Views\student\module\module.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: footer', 'APPPATH\\Views\\student\\module\\module.php', 70, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(29): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 13:58:53 --> Undefined variable: footer
+in APPPATH\Views\student\module\module.php on line 70.
+ 1 APPPATH\Views\student\module\module.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: footer', 'APPPATH\\Views\\student\\module\\module.php', 70, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(28): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-02 14:01:55 --> Undefined variable: footer
+in APPPATH\Views\student\module\module.php on line 70.
+ 1 APPPATH\Views\student\module\module.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: footer', 'APPPATH\\Views\\student\\module\\module.php', 70, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student\\module\\module.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('student/module/module', [], true)
+ 5 APPPATH\Controllers\Content_infos.php(28): view('student/module/module', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->module()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,14 @@
+CRITICAL - 2022-10-01 19:23:01 --> Undefined array key 0
+in APPPATH\Controllers\Content\Content_infos.php on line 154.
+ 1 APPPATH\Controllers\Content\Content_infos.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Content\\Content_infos.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-01 19:23:02 --> Undefined array key 0
+in APPPATH\Controllers\Content\Content_infos.php on line 154.
+ 1 APPPATH\Controllers\Content\Content_infos.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'APPPATH\\Controllers\\Content\\Content_infos.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content\Content_infos->showQuiz()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content\Content_infos))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

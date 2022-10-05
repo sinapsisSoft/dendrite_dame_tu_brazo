@@ -1,0 +1,11 @@
+CRITICAL - 2022-07-06 16:33:52 --> Invalid argument supplied for foreach()
+in APPPATH\Views\crop\to_list.php on line 135.
+ 1 APPPATH\Views\crop\to_list.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Views\\crop\\to_list.php', 135, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crop\\to_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 5 APPPATH\Controllers\Crops.php(19): view('crop/to_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

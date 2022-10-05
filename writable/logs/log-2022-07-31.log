@@ -1,0 +1,114 @@
+CRITICAL - 2022-07-31 07:19:01 --> Cannot use object of type mysqli as array
+in APPPATH\Views\crop\to_list.php on line 100.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:23:23 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\crop\to_list.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:26:11 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\crop\to_list.php on line 32.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:27:32 --> Cannot use object of type mysqli as array
+in APPPATH\Views\crop\to_list.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:29:33 --> Call to a member function result() on null
+in APPPATH\Models\Crop.php on line 16.
+ 1 APPPATH\Controllers\Crops.php(21): App\Models\Crop->select_all_crop()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:30:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\Crop.php on line 15.
+ 1 APPPATH\Controllers\Crops.php(21): App\Models\Crop->select_all_crop()
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:36:40 --> Cannot use object of type stdClass as array
+in APPPATH\Views\crop\to_list.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:38:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\crop\to_list.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:38:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\crop\to_list.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:39:02 --> Cannot use object of type stdClass as array
+in APPPATH\Views\crop\to_list.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:40:24 --> Cannot use object of type stdClass as array
+in APPPATH\Views\crop\to_list.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-07-31 07:42:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\crop\to_list.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 4 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

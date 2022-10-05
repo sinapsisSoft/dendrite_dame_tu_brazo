@@ -1,0 +1,27 @@
+CRITICAL - 2022-08-01 23:11:42 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 231.
+ 1 SYSTEMPATH\CodeIgniter.php(231): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(189): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(43): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-08-01 19:38:49 --> Undefined property: stdClass::$crop_description
+in APPPATH\Views\crop\to_list.php on line 106.
+ 1 APPPATH\Views\crop\to_list.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$crop_description', 'APPPATH\\Views\\crop\\to_list.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crop\\to_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('crop/to_list', [], true)
+ 5 APPPATH\Controllers\Crops.php(29): view('crop/to_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Crops->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crops))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-01 19:42:39 --> Undefined array key "stages_cultivation_id"
+in APPPATH\Views\cultivate\to_list.php on line 198.
+ 1 APPPATH\Views\cultivate\to_list.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "stages_cultivation_id"', 'APPPATH\\Views\\cultivate\\to_list.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\cultivate\\to_list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('cultivate/to_list', [], true)
+ 5 APPPATH\Controllers\Cultivates.php(37): view('cultivate/to_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Cultivates->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cultivates))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

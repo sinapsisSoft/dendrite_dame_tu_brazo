@@ -1,0 +1,87 @@
+ERROR - 2022-09-26 15:33:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''6')' at line 1
+CRITICAL - 2022-09-26 15:33:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''6')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_user_score(7,,\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_user_score(7,,\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_user_score(7,,\'6\')')
+ 4 APPPATH\Models\User_score.php(17): CodeIgniter\Database\BaseConnection->query('CALL sp_user_score(7,,\'6\')')
+ 5 APPPATH\Controllers\Content_infos.php(165): App\Models\User_score->insert_score_quiz('7', null, '6')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-26 15:35:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5')' at line 1
+CRITICAL - 2022-09-26 15:35:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_user_score(7,,\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_user_score(7,,\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_user_score(7,,\'5\')')
+ 4 APPPATH\Models\User_score.php(17): CodeIgniter\Database\BaseConnection->query('CALL sp_user_score(7,,\'5\')')
+ 5 APPPATH\Controllers\Content_infos.php(165): App\Models\User_score->insert_score_quiz('7', null, '5')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-26 15:35:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10')' at line 1
+CRITICAL - 2022-09-26 15:35:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''10')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_user_score(7,,\'10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_user_score(7,,\'10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_user_score(7,,\'10\')')
+ 4 APPPATH\Models\User_score.php(17): CodeIgniter\Database\BaseConnection->query('CALL sp_user_score(7,,\'10\')')
+ 5 APPPATH\Controllers\Content_infos.php(165): App\Models\User_score->insert_score_quiz('7', null, '10')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-26 15:38:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''15')' at line 1
+CRITICAL - 2022-09-26 15:38:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''15')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_user_score(7,,\'15\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_user_score(7,,\'15\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_user_score(7,,\'15\')')
+ 4 APPPATH\Models\User_score.php(17): CodeIgniter\Database\BaseConnection->query('CALL sp_user_score(7,,\'15\')')
+ 5 APPPATH\Controllers\Content_infos.php(165): App\Models\User_score->insert_score_quiz('7', null, '15')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-26 15:46:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5')' at line 1
+CRITICAL - 2022-09-26 15:46:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''5')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_user_score(7,,\'5\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_user_score(7,,\'5\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_user_score(7,,\'5\')')
+ 4 APPPATH\Models\User_score.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_user_score(7,,\'5\')')
+ 5 APPPATH\Controllers\Content_infos.php(165): App\Models\User_score->insert_score_quiz('7', null, '5')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-09-26 16:06:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''6')' at line 1
+CRITICAL - 2022-09-26 16:06:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''6')' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('CALL sp_user_score(7,,\'6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('CALL sp_user_score(7,,\'6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('CALL sp_user_score(7,,\'6\')')
+ 4 APPPATH\Models\User_score.php(18): CodeIgniter\Database\BaseConnection->query('CALL sp_user_score(7,,\'6\')')
+ 5 APPPATH\Controllers\Content_infos.php(165): App\Models\User_score->insert_score_quiz('7', null, '6')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createQuiz()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-09-26 20:41:56 --> Object of class stdClass could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 335.
+ 1 SYSTEMPATH\Database\Query.php(335): strtr('INSERT INTO `user_assessment` (`user_assessment_id`, `question_answer_id`, `content_id`, `user_id`) VALUES (:user_assessment_id:, :question_answer_id:, :content_id:, :user_id:)', [...])
+ 2 SYSTEMPATH\Database\Query.php(310): CodeIgniter\Database\Query->matchNamedBinds('INSERT INTO `user_assessment` (`user_assessment_id`, `question_answer_id`, `content_id`, `user_id`) VALUES (:user_assessment_id:, :question_answer_id:, :content_id:, :user_id:)', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1904): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user_assessment` (`user_assessment_id`, `question_answer_id`, `content_id`, `user_id`) VALUES (:user_assessment_id:, :question_answer_id:, :content_id:, :user_id:)', [...], false)
+ 6 SYSTEMPATH\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+ 7 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 8 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 9 APPPATH\Controllers\Content_infos.php(178): CodeIgniter\Model->insert([...])
+10 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Content_infos->createAssessment()
+11 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Content_infos))
+12 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
