@@ -119,6 +119,71 @@ CREATE PROCEDURE `sp_user_score` (IN `contentId` INT, IN `userId` INT, IN `score
 	SELECT score AS user_score_value;
 END$$
 
+DELIMITER $$
+DROP PROCEDURE IF EXISTS sp_report_module$$
+CREATE PROCEDURE sp_report_module(IN finalDate DATE)
+BEGIN
+	CREATE TEMPORARY TABLE result 
+    SELECT AU.user_id, 
+    max(C.content_id) AS content_id, 
+    (
+        SELECT module_id 
+        FROM content 
+        WHERE content_id = max(C.content_id) LIMIT 1
+    ) AS module_id
+    FROM activity_user AU 
+    JOIN content C ON AU.content_id = C.content_id
+    WHERE AU.activity_user_date BETWEEN CONCAT('2022-10-03',' 00:00:00') AND CONCAT(finalDate,' 23:59:59')
+    GROUP BY AU.user_id;
+    SELECT CONCAT("Módulo ",module_id) AS module_id, COUNT(module_id) AS module_count
+    FROM result 
+    GROUP BY module_id;
+    DROP TEMPORARY TABLE IF EXISTS result;
+END$$
+
+DELIMITER $$
+DROP PROCEDURE IF EXISTS sp_report_table$$
+CREATE PROCEDURE sp_report_table(IN finalDate DATE)
+BEGIN
+	SELECT U.user_id, U.user_name, L.login_email, 
+  (
+    SELECT user_score_value FROM user_score US WHERE US.user_id = U.user_id AND US.content_id = 7 LIMIT 1
+  ) AS 'mod_1', 
+  (
+    SELECT user_score_value FROM user_score US WHERE US.user_id = U.user_id AND US.content_id = 16 LIMIT 1
+  ) AS 'mod_2', 
+  (
+    SELECT user_score_value FROM user_score US WHERE US.user_id = U.user_id AND US.content_id = 25 LIMIT 1
+  )  AS 'mod_3', 
+  (
+    SELECT user_score_value FROM user_score US WHERE US.user_id = U.user_id AND US.content_id = 34 LIMIT 1
+    ) AS 'mod_4', 
+  (
+    SELECT C.content_name FROM activity_user AU INNER JOIN content C ON AU.content_id = C.content_id WHERE AU.user_id = U.user_id
+ORDER BY AU.activity_user_date DESC LIMIT 1
+  ) AS 'activity'
+  FROM user U
+  INNER JOIN login L
+  ON U.user_id = L.user_id
+  INNER JOIN activity_user AC
+  ON U.user_id = AC.user_id
+  WHERE U.role_id = 2 AND AC.activity_user_date BETWEEN CONCAT('2022-10-03',' 00:00:00') AND CONCAT(finalDate,' 23:59:59')
+  GROUP BY AC.user_id
+  ORDER BY U.user_name ASC;
+END$$
+
+DELIMITER $$
+DROP PROCEDURE IF EXISTS sp_report_user$$
+CREATE PROCEDURE sp_report_user(IN userId INT, IN moduleId INT)
+BEGIN
+	SELECT Q.question_text, A.answer_text FROM user_assessment UA 
+  INNER JOIN question_answer QA ON UA.question_answer_id = QA.question_answer_id
+  INNER JOIN question Q ON QA.question_id = Q.question_id
+  INNER JOIN answer A ON QA.answer_id = A.answer_id
+  INNER JOIN content C ON UA.content_id = C.content_id
+  WHERE UA.user_id = userId AND C.module_id = moduleId;
+END$$
+  
 DELIMITER ;
 
 -- --------------------------------------------------------

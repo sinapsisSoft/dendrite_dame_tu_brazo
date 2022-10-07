@@ -92,88 +92,9 @@ $routes->group('student', ['namespace' => 'App\Controllers\Content'], function (
     $routes->get('dashboard','Content_infos::index');
 });
 
-$routes->group('admin', ['namespace' => 'App\Controllers\Content'], function ($routes) {
-    $routes->get('dashboard','Content_infos::dashboardAdmin');
-    $routes->get('preload','Content_infos::preload');
+$routes->group('admin', ['namespace' => 'App\Controllers\Admin'], function ($routes) {
+    $routes->get('dashboard','Reports::index');
+    $routes->post('chart1','Reports::chart1');
+    $routes->post('table','Reports::table');
+    $routes->post('user','Reports::user');
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// $routes->post('crop/save','Crops::save');
-// $routes->post('crop/delete','Crops::delete');
-// $routes->post('crop/update','Crops::update');
-// $routes->post('crop/editCrop','Crops::editCrop');
-// $routes->post('crop/uploadImg','Crops::uploadImg');
-
-
-// $routes->get('crop_type/to_list','CropsType::index');
-// $routes->get('crop_type/create','CropsType::create');
-// $routes->post('crop_type/save','CropsType::save');
-// $routes->post('crop_type/update','CropsType::update');
-
-// $routes->get('crop_cycle/to_list','CropsCycle::index');
-// $routes->get('crop_cycle/create','CropsCycle::create');
-// $routes->post('crop_cycle/save','CropsCycle::save');
-// $routes->post('crop_cycle/update','CropsCycle::update');
-
-// $routes->get('crop_activities/to_list','CropsActivities::index');
-
-// $routes->get('report/view','Reports::index');
-// $routes->get('home/index','Home::index');
-
-
-// $routes->get('user/to_list','Users::index');
-// $routes->get('user/to_list_state','Users::userState');
-// $routes->get('user/to_list_role','Users::userRole');
-// $routes->get('user/to_list_permission','Users::userPermission');
-
-
-// $routes->get('system/to_list_units','Units::index');
-// $routes->get('system/calendar','Calendar::index');
-// $routes->get('system/to_list_city','Citys::index');
-// $routes->get('system/to_list_region','Regions::index');
-// $routes->post('region/create','Regions::create');
-// $routes->post('region/view','Regions::viewRegionId');
-// $routes->post('region/update','Regions::update');
-
-
-// $routes->get('farm/to_list','Farms::index');
-
-// $routes->get('analytics/to_list_suggestion','CropsSuggestion::index');
-// $routes->get('analytics/to_list_conditions','GrowingsConditions::index');
-
-
-// $routes->get('cultivate/to_list','Cultivates::index');
-
-// $routes->get('cultivate/to_list_previous','CultivationsBackground::index');
-
-// $routes->get('plot/to_list','Plots::index');
-
-// $routes->get('soil/to_list','SoilPresparation::index');
-
-// $routes->get('sowing/to_list','Sowings::index');
-
-// $routes->get('fertilization/to_list','Fertilizations::index');
-
-// $routes->get('irrigation/to_list','Irrigations::index');
-
-
-
-
-
-
-
-

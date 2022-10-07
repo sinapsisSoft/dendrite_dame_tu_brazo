@@ -15,7 +15,7 @@
 
 <body>
   <!-- Preloader - style you can find in spinners.css -->
-  <div class="preloader d-none">
+  <div class="preloader" style="display: none">
     <div class="lds-ripple">
       <div class="lds-pos"></div>
       <div class="lds-pos"></div>
@@ -50,23 +50,23 @@
               <div class="row d-flex justify-content-start">
                 <div class="col-6 mb-0">
                   <div class="container-sm">
-                    <form id="formSearchConsent">
+                    <form id="formSearchReport">
                       <div class="row">
                         <div class="col-5">
-                          <input type="date" class="form-control form-control-sm read">
+                          <input id="iniDate" type="date" class="form-control form-control-sm" value="2022-10-03" readonly >
                         </div>
                         <div class="col-2 d-flex justify-content-center align-items-center">
                           <h5>a</h5>
                         </div>
                         <div class="col-5">
-                          <input type="date" class="form-control form-control-sm read">
+                          <input id="finDate" type="date" class="form-control form-control-sm">
                         </div>
                       </div>
                     </form>
                   </div>
                 </div>
                 <div class="col-2">
-                  <button class="btn btn-primary rounded-pill" onclick="searchConsent(event);return false">Filtrar</button>
+                  <button class="btn btn-primary rounded-pill" onclick="searchReport(event);return false">Filtrar</button>
                 </div>
               </div>
             </div>
@@ -74,17 +74,17 @@
         </div>
 
         <div class="card-body">
-          <div class="row reportChart">
+          <div class="row reportChart justify-content-center">
             <div id="chart1Report" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <canvas id="chart1" style="width: 100%;"></canvas>
             </div>
 
-            <div id="chart2Report" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <!-- <div id="chart2Report" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <canvas id="chart2" style="width: 100%;"></canvas>
-            </div>
+            </div> -->
 
             <div class="col-12 text-right my-4 d-flex justify-content-end">
-              <a href="#" class="btn btn-primary rounded-pill" id="btnExcel" onclick="fnExcelReport('tableStudentReport','Reporte Reservas');">Descargar en excel <i class="ms-1 far fa-file-excel"></i></a>
+              <a href="#" class="btn btn-primary rounded-pill" id="btnExcel" onclick="fnExcelReport('tableStudentReport','Reporte Alumnos');">Descargar en excel <i class="ms-1 far fa-file-excel"></i></a>
             </div>
           </div>
           <div class="col-md-12">
@@ -101,8 +101,6 @@
       </div>
     </div>
   </div>
-
-
   <!-- Modal -->
   <div class="modal fade" id="scoreModal" tabindex="-1" aria-labelledby="scoreModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-xl">
@@ -125,74 +123,44 @@
               <div class="container m-2 d-flex py-3 justify-content-center">
                 <div class="row row-cols-auto shadow p-3 bg-body rounded">
                   <div class="col">
-                    <h3>Nota final del Módulo:</h3>
+                    <h3 id="assessment-title-1"></h3>
                   </div>
-                  <div class="col">
-                    <h3>5</h3>
+                  <div id="assessment-1" class="col-12">                    
                   </div>
                 </div>
-              </div>
-              <div class="table-responsive my-custom-scrollbar">
-                <table class="table" data-order="[[ 1, &quot;asc&quot; ]]" data-page-length="25" id="tableScoreModule1" width="100%" cellspacing="0">
-                  <thead class="text-wine">
-                    
-                  </tbody>
-                </table>
               </div>
             </div>
             <div class="tab-pane fade" id="nav-modulo-2" role="tabpanel" aria-labelledby="nav-modulo-2-tab">
               <div class="container m-2 d-flex py-3 justify-content-center">
                 <div class="row row-cols-auto shadow p-3 bg-body rounded">
                   <div class="col">
-                    <h3>Nota final del Módulo:</h3>
+                    <h3 id="assessment-title-2"></h3>
                   </div>
-                  <div class="col">
-                    <h3>5</h3>
+                  <div id="assessment-2" class="col-12">
                   </div>
                 </div>
-              </div>
-              <div class="table-responsive my-custom-scrollbar">
-                <table class="table" data-order="[[ 1, &quot;asc&quot; ]]" data-page-length="25" id="tableScoreModule2" width="100%" cellspacing="0">
-                  <thead class="text-wine">
-                    
-                  </tbody>
-                </table>
               </div>
             </div>
             <div class="tab-pane fade" id="nav-modulo-3" role="tabpanel" aria-labelledby="nav-modulo-3-tab">
               <div class="container m-2 d-flex py-3 justify-content-center">
                 <div class="row row-cols-auto shadow p-3 bg-body rounded">
                   <div class="col">
-                    <h3>Nota final del Módulo:</h3>
+                    <h3 id="assessment-title-3"></h3>
                   </div>
-                  <div class="col">
-                    <h3>5</h3>
+                  <div id="assessment-3" class="col-12">
                   </div>
                 </div>
-              </div>
-              <div class="table-responsive my-custom-scrollbar">
-                <table class="table" data-order="[[ 1, &quot;asc&quot; ]]" data-page-length="25" id="tableScoreModule3" width="100%" cellspacing="0">
-                  <thead class="text-wine">
-                    
-                  </tbody>
-                </table>
               </div>
             </div>
             <div class="tab-pane fade" id="nav-modulo-4" role="tabpanel" aria-labelledby="nav-modulo-4-tab">
               <div class="container m-2 d-flex py-3 justify-content-center">
                 <div class="row row-cols-auto shadow p-3 bg-body rounded">
                   <div class="col">
-                    <h3>Nota final del Módulo:</h3>
+                    <h3 id="assessment-title-4"></h3>
                   </div>
-                  <div class="col">
-                    <h3>5</h3>
+                  <div id="assessment-4" class="col-12">
                   </div>
                 </div>
-              </div>
-              <div class="table-responsive my-custom-scrollbar">
-                <table class="table" data-order="[[ 1, &quot;asc&quot; ]]" data-page-length="25" id="tableScoreModule4" width="100%" cellspacing="0">
-                 
-                </table>
               </div>
             </div>
           </div>
@@ -204,11 +172,12 @@
     </div>
   </div>
   <!-- All Jquery -->
-  <?= $script ?>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/table-filter.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/table.js"></script>
-  <script src="../assets/js/Chart.js"></script>
+  <?= $script ?>  
+  <script src="../assets/js/chart.js"></script>
+  <script src="../assets/js/table-filter.js"></script>
+  <script src="../assets/js/table.js"></script>
+  <script src="../assets/js/export-excel.js"></script>
+  <script src="../controller/admin/admin.controller.js"></script>
 </body>
 
 </html>

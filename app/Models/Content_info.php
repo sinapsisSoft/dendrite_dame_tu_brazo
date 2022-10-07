@@ -21,4 +21,22 @@ class Content_info extends Model{
     $result = $this->db->query($query)->getResult();
     return $result;
   }
+
+  function select_module_report($finDate){
+    $query = "CALL sp_report_module('" . $finDate . "')";
+    $result = $this->db->query($query)->getResult();
+    return $result;
+  }
+
+  function select_table_report($finDate){
+    $query = "CALL sp_report_table('" . $finDate . "')";
+    $result = $this->db->query($query)->getResult();
+    return $result;
+  }
+
+  function select_user_report($userId, $moduleId){
+    $query = "CALL sp_report_user(" . $userId . "," . $moduleId . ")";
+    $result = $this->db->query($query)->getResult();
+    return $result;
+  }
 }

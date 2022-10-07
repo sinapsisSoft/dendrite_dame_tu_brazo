@@ -33,7 +33,7 @@ class Home extends Controller
       'role_id' => $this->request->getVar('role_id')
     ]; 
     if($dataUser['role_id'] == 1){
-      echo "admin/dashboard";
+      echo "1,admin/dashboard";
     }
     else if($dataUser['role_id'] == 2){
       $user = new Data_user();
