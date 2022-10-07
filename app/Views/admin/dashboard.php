@@ -27,7 +27,7 @@
     <?= $header ?>
     <div class="col-12 d-block">
       <div class="fixed-top-db btn-flotante">
-        <button class="btn-logout btn btn-light text-black " aria-current="page" href="#"><i class="mdi mdi-account-circle btn-icon"></i>
+        <button class="btn-logout btn btn-light text-black " aria-current="page" onclick="logOut();"><i class="mdi mdi-account-circle btn-icon"></i>
           <p class="d-none d-md-block pe-3">Log Out</p>
         </button>
       </div>
@@ -178,6 +178,7 @@
   <script src="../assets/js/table.js"></script>
   <script src="../assets/js/export-excel.js"></script>
   <script src="../controller/admin/admin.controller.js"></script>
+  <script src="../controller/authentication/login.controller.js"></script>
 </body>
 
 </html>
