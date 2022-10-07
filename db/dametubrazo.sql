@@ -176,7 +176,7 @@ DELIMITER $$
 DROP PROCEDURE IF EXISTS sp_report_user$$
 CREATE PROCEDURE sp_report_user(IN userId INT, IN moduleId INT)
 BEGIN
-	SELECT Q.question_text, A.answer_text FROM user_assessment UA 
+	SELECT Q.question_text, A.answer_text, UA.user_assessment_detail FROM user_assessment UA 
   INNER JOIN question_answer QA ON UA.question_answer_id = QA.question_answer_id
   INNER JOIN question Q ON QA.question_id = Q.question_id
   INNER JOIN answer A ON QA.answer_id = A.answer_id

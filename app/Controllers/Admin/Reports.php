@@ -20,12 +20,12 @@ class Reports extends Controller
     $data['script'] = view('template/script');
     $data['header'] = view('template/header');    
     $userId = $this->session->get('user');
-    if($userId[0]->user_id != null){      
+    if (isset($userId)){    
       return view('admin/dashboard', $data);    
     }
     else {
       return view('login/authentication-login', $data);
-    }
+    }    
   }
 
   public function chart1(){
@@ -36,7 +36,7 @@ class Reports extends Controller
     $data['header'] = view('template/header');    
     $userId = $this->session->get('user');
     $finDate = $this->request->getVar('finDate');
-    if($userId != null){      
+    if(isset($userId)){      
       $result = $report->select_module_report($finDate);
       echo json_encode($result);
     }
@@ -53,7 +53,7 @@ class Reports extends Controller
     $data['header'] = view('template/header');    
     $userId = $this->session->get('user');
     $finDate = $this->request->getVar('finDate');
-    if($userId != null){      
+    if(isset($userId)){      
       $result = $report->select_table_report($finDate);
       echo json_encode($result);
     }
@@ -69,7 +69,7 @@ class Reports extends Controller
     $data['script'] = view('template/script');
     $data['header'] = view('template/header');    
     $userId = $this->session->get('user');    
-    if($userId != null){      
+    if(isset($userId)){      
       $user = $this->request->getVar('user_id');
       $module = $this->request->getVar('module_id');
       $result = $report->select_user_report($user, $module);

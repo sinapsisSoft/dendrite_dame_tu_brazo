@@ -1,5 +1,6 @@
 
 var arrayCell = new Array("Usuario","Identificación", "Módulo 1", "Módulo 2", "Módulo 3", "Módulo 4", "Última actividad");
+var first = 0;
 
 function searchReport(event){
   $(".preloader").fadeIn();
@@ -24,9 +25,10 @@ function getChart1(finDate) {
   })
     .then(response => response.json())
     .catch(error => console.error('Error:', error))
-    .then(function (response) {
+    .then(function (response) {      
       chart1(response);      
       getTable(finDate);
+      first++;
     });
 }
 
@@ -78,6 +80,13 @@ function getUserReport(userId, moduleId) {
 }
 
 function chart1(response){
+  if(first > 0){
+    document.getElementById('chart1').remove();
+    let canvas = document.createElement('canvas');
+    canvas.setAttribute('id','chart1');
+    canvas.setAttribute('width','100%');
+    document.querySelector('#chart1'+'Report').appendChild(canvas); 
+  }
   var ctx = document.getElementById('chart1');
   var myChart = new Chart(ctx, {
     type: 'bar',
@@ -136,9 +145,10 @@ function assessment(json, moduleId){
 	<tbody>`;
   let tablebody = "";
   for(let i = 0; i < json.length; i++){
+    let answer = json[i]['answer_text'] != null ? json[i]['answer_text'] : json[i]['user_assessment_detail'];
     tablebody += `<tr>
               <td>${json[i]['question_text']}</td>
-              <td>${json[i]['answer_text']}</td>
+              <td>${answer}</td>
             </tr>`;          
   }
   let tableend = `</tbody>
