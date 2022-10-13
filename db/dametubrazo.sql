@@ -119,6 +119,25 @@ CREATE PROCEDURE `sp_user_score` (IN `contentId` INT, IN `userId` INT, IN `score
 	SELECT score AS user_score_value;
 END$$
 
+DROP PROCEDURE IF EXISTS `sp_report_average`$$
+CREATE PROCEDURE `sp_report_average`()  
+BEGIN
+  SELECT ROUND(AVG(A.answer_text),2) AS 'Average', QA.question_answer_id,  QA.question_id, UA.user_id, UA.content_id, 
+  (
+    SELECT content.module_id 
+    FROM module 
+    INNER JOIN content 
+    ON module.module_id = content.module_id 
+    WHERE content_id = UA.content_id
+  ) AS 'moduleId' 
+  FROM user_assessment UA
+  LEFT JOIN question_answer QA 
+  ON UA.question_answer_id = QA.question_answer_id
+  LEFT JOIN answer A 
+  ON QA.answer_id = A.answer_id
+  GROUP BY QA.question_id, moduleId;
+END$$
+
 DELIMITER $$
 DROP PROCEDURE IF EXISTS sp_report_module$$
 CREATE PROCEDURE sp_report_module(IN finalDate DATE)

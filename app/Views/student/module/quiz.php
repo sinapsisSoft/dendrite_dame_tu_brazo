@@ -119,7 +119,7 @@
 
   <!-- All Jquery -->
   <?= $script ?>
-  <script src="../controller/main/main.controller.js"></script>
+  <script src="../controller/main/main.controller.js?v=0.01"></script>
   <script>
     var jsonQuiz = <?= json_encode($content_questions) ?>;
     document.getElementById("module_id").innerHTML = `Módulo <?= $module_id ?>`;

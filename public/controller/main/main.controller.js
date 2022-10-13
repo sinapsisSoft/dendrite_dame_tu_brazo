@@ -127,6 +127,7 @@ function validateAnswer(idForm, event, type){
 }
 
 function createScore(idForm){
+  userScore = 0;
   let objForm = document.getElementById(idForm);
   for (let i = 0; i < objForm.length; i++) {
     let element = objForm[i];

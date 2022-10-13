@@ -97,4 +97,5 @@ $routes->group('admin', ['namespace' => 'App\Controllers\Admin'], function ($rou
     $routes->post('chart1','Reports::chart1');
     $routes->post('table','Reports::table');
     $routes->post('user','Reports::user');
+    $routes->post('chart2','Reports::chart2');
 });

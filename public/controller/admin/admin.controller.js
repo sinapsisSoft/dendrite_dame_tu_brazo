@@ -6,6 +6,7 @@ function searchReport(event){
   $(".preloader").fadeIn();
   let finDate = document.getElementById('finDate').value;
   getChart1(finDate);
+  getChart2();
   event.preventDefault();
 }
 
@@ -29,6 +30,23 @@ function getChart1(finDate) {
       chart1(response);      
       getTable(finDate);
       first++;
+    });
+}
+
+function getChart2() {  
+  url = BASE_URL + "admin/chart2";  
+  fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Requested-With": "XMLHttpRequest"
+    }
+  })
+    .then(response => response.json())
+    .catch(error => console.error('Error:', error))
+    .then(function (response) {      
+      chart2(response);
+      // first++;
     });
 }
 
@@ -113,7 +131,13 @@ function chart1(response){
       parsing: {
         xAxisKey: 'module_id',
         yAxisKey: 'module_count'
-      } 
+      },
+      plugins: {
+        title: {
+          display: true,
+          text: 'Cantidad de estudiantes por módulo',
+        }
+      }
     }
   });
 }
@@ -162,39 +186,56 @@ function assessment(json, moduleId){
   
 }
 
-  // var ctx = document.getElementById('chart2');
-  // var myChart = new Chart(ctx, {
-  //   type: 'pie',
-  //   data: {
-  //     labels: labels = [
-  //       'January',
-  //       'February',
-  //       'March',
-  //       'April',
-  //       'May',
-  //       'June',
-  //     ],
-  //     datasets: [{
-  //       label: 'My First dataset',
-  //       backgroundColor: [
-  //         'rgba(255, 99, 132, 0.2)',
-  //         'rgba(54, 162, 235, 0.2)',
-  //         'rgba(255, 206, 86, 0.2)',
-  //         'rgba(75, 192, 192, 0.2)',
-  //         'rgba(153, 102, 255, 0.2)',
-  //         'rgba(255, 159, 64, 0.2)'
-  //       ],
-  //       borderColor: [
-  //         'rgba(255, 99, 132, 1)',
-  //         'rgba(54, 162, 235, 1)',
-  //         'rgba(255, 206, 86, 1)',
-  //         'rgba(75, 192, 192, 1)',
-  //         'rgba(153, 102, 255, 1)',
-  //         'rgba(255, 159, 64, 1)'
-  //       ],
-  //       data: [0, 10, 5, 2, 20, 30, 45],
-  //     }]
-  //   },
+function chart2(data){
+  if(first > 0){
+    document.getElementById('chart2').remove();
+    let canvas = document.createElement('canvas');
+    canvas.setAttribute('id','chart2');
+    canvas.setAttribute('width','100%');
+    document.querySelector('#chart2'+'Report').appendChild(canvas); 
+  }
+  var ctx = document.getElementById('chart2');
+  var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Módulo 1','Módulo 2', 'Módulo 3', 'Módulo 4'],
+      datasets: [
+        {
+          label: 'Pregunta 1',
+          data: data[0],
+          backgroundColor: 'rgba(255, 99, 132, 0.5)',
+        },
+        {
+          label: 'Pregunta 2',
+          data: data[1],
+          backgroundColor: 'rgb(54, 162, 235, 0.5)',
+        },
+        {
+          label: 'Pregunta 3',
+          data: data[2],
+          backgroundColor: 'rgb(75, 192, 192, 0.5)',
+        },
+        {
+          label: 'Pregunta 4',
+          data: data[3],
+          backgroundColor: 'rgb(255, 159, 64, 0.5)',
+        },
+        {
+          label: 'Pregunta 5',
+          data: data[4],
+          backgroundColor: 'rgb(153, 102, 255, 0.5)',
+        }
+      ]
+    },
+   options: {
+    plugins: {
+      title: {
+        display: true,
+        text: 'Calificación promedio de la evaluación de cada módulo',
+      }
+    }
+   }
+  });
+}
 
-  //   options: {}
-  // });
+  

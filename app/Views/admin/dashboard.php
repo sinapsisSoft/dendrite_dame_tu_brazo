@@ -34,7 +34,7 @@
       <div class="page-breadcrumb">
         <div class="row">
           <div class="col-12 d-flex no-block align-items-center">
-            <h4 class="page-title fs-2">Graficas</h4>
+            <h4 class="page-title fs-2">Reporte</h4>
             <div class="ms-auto text-end">
             </div>
           </div>
@@ -78,11 +78,9 @@
             <div id="chart1Report" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <canvas id="chart1" style="width: 100%;"></canvas>
             </div>
-
-            <!-- <div id="chart2Report" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+            <div id="chart2Report" class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <canvas id="chart2" style="width: 100%;"></canvas>
-            </div> -->
-
+            </div>
             <div class="col-12 text-right my-4 d-flex justify-content-end">
               <a href="#" class="btn btn-primary rounded-pill" id="btnExcel" onclick="fnExcelReport('tableStudentReport','Reporte Alumnos');">Descargar en excel <i class="ms-1 far fa-file-excel"></i></a>
             </div>
@@ -177,7 +175,7 @@
   <script src="../assets/js/table-filter.js"></script>
   <script src="../assets/js/table.js"></script>
   <script src="../assets/js/export-excel.js"></script>
-  <script src="../controller/admin/admin.controller.js"></script>
+  <script src="../controller/admin/admin.controller.js?v=0.01"></script>
   <script src="../controller/authentication/login.controller.js"></script>
 </body>
 

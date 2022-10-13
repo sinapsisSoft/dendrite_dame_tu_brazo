@@ -161,7 +161,7 @@ class Content_infos extends Controller
     $data['header'] = view('template/header');  
     $moduleId = $this->session->get('module_id');
     $typeId = $this->session->get('type_content_id');
-    $userId = $this->session->get('user_id');  
+    $userId = $this->session->get('user');  
     if($moduleId != null && $typeId != null){
       $data['content_questions'] = $content_info->select_content_info_quiz($moduleId, $typeId); 
       $contenId = $data['content_questions'][0]->content_id; 
@@ -175,7 +175,7 @@ class Content_infos extends Controller
         case 6:
           $user_assesssment = new User_assessment();
           $result = $user_assesssment->where('content_id', $contenId)
-                                      ->where('user_id', $userId)
+                                      ->where('user_id', $userId[0]->user_id)
                                       ->first();
           $data['disabled'] = (isset($result)) ? "disabled" : "";  
           return view('student/module/assessment', $data);
