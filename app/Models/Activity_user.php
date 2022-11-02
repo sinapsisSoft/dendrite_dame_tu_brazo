@@ -19,7 +19,6 @@ class Activity_user extends Model
 
   function setActivity($user_id, $content_id, $type){
     $query = "CALL sp_create_activity_user(" . $user_id . "," . $content_id ."," . $type .")";
-    // echo "CALL sp_create_activity_user(" . $user_id . "," . $content_id ."," . $type .")";
     $result = $this->db->query($query)->getResult();
     return $result;
   }

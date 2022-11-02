@@ -103,7 +103,7 @@ DROP PROCEDURE IF EXISTS `sp_login`$$
 CREATE PROCEDURE `sp_login` (IN `user_email` VARCHAR(200), IN `user_password` VARCHAR(200))  BEGIN
 SELECT US.user_id,US.role_id FROM login LG 
 INNER JOIN user US ON LG.user_id=US.user_id
-WHERE LG.login_email=user_email AND LG.login_password=user_password;
+WHERE LG.login_email=user_email AND LG.login_password=user_password AND user_state_id = 1;
 END$$
 
 DROP PROCEDURE IF EXISTS `sp_user_score`$$
