@@ -106,13 +106,14 @@ INNER JOIN user US ON LG.user_id=US.user_id
 WHERE LG.login_email=user_email AND LG.login_password=user_password AND user_state_id = 1;
 END$$
 
-DROP PROCEDURE IF EXISTS `sp_user_score`$$
-CREATE PROCEDURE `sp_user_score` (IN `contentId` INT, IN `userId` INT, IN `score` VARCHAR(3))  BEGIN
+DROP PROCEDURE IF EXISTS sp_user_score$$
+CREATE PROCEDURE sp_user_score(IN contentId INT, IN userId INT, IN score VARCHAR(3))
+BEGIN
   SET @exist = (SELECT user_score_value FROM user_score WHERE content_id = contentId AND user_id = userId);
 	IF @exist = "" OR @exist IS NULL THEN
 		INSERT INTO user_score (user_score_value, content_id, user_id) VALUES (score, contentId, userId);		
 	ELSE
-		IF @exist < score THEN
+		IF (@exist * 1) < score THEN
 			UPDATE user_score SET user_score_value = score WHERE content_id = contentId AND user_id = userId; 
 		END IF;
 	END IF;
